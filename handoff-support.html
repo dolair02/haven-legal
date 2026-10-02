@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Support & Help Center — Handoff: Safe Local Trade</title>
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #111827;
+      --accent: #10b981;
+      --accent-blue: #38bdf8;
+      --text: #f3f4f6;
+      --muted: #9ca3af;
+      --border: #1f2937;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px 80px 20px;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--accent);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      padding: 4px 14px;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin: 0 0 8px 0;
+      font-weight: 800;
+      color: #ffffff;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+    h2 {
+      font-size: 1.3rem;
+      color: #ffffff;
+      margin-top: 0;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    p, li {
+      color: #d1d5db;
+      font-size: 0.98rem;
+    }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .contact-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #10b981, #0284c7);
+      color: #ffffff;
+      font-weight: 700;
+      padding: 12px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 1rem;
+      margin-top: 8px;
+      box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3);
+    }
+    .contact-btn:hover {
+      opacity: 0.95;
+    }
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+      padding: 16px 0;
+    }
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+    .faq-question {
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 6px;
+    }
+    footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+    a {
+      color: var(--accent-blue);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">Customer Help Center</span>
+      <h1>Handoff Support</h1>
+      <div class="subtitle">We're here to help you trade safely, resolve disputes, and protect your escrow.</div>
+    </header>
+
+    <!-- Direct Contact Box -->
+    <div class="card" style="text-align: center; background: linear-gradient(180deg, #111827, #0f172a); border-color: rgba(56, 189, 248, 0.3);">
+      <h2>📬 Need Direct Assistance?</h2>
+      <p>Our dedicated operations team is available 24/7 to resolve escrow questions, dispute claims, or account inquiries.</p>
+      <a class="contact-btn" href="mailto:support@handoff.trade?subject=Handoff%20Support%20Request">Email: support@handoff.trade</a>
+      <p style="margin-top: 14px; font-size: 0.85rem; color: var(--muted);">Typical response time: Under 2 hours</p>
+    </div>
+
+    <!-- Frequent Questions -->
+    <div class="card">
+      <h2>❓ Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <div class="faq-question">How does the $5 Anti-Flake Escrow work?</div>
+        <p>Both buyer and seller place a refundable $5 deposit into escrow when confirming an in-person exchange. When both parties meet at the agreed Safe Spot and scan the check-in code, both deposits are immediately returned in full ($0 fee). If one party cancels without notice or fails to show up within 15 minutes, their $5 deposit is automatically forfeited and paid directly to the attending party as compensation.</p>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">How do I cancel or manage my Handoff Premium subscription?</div>
+        <p>All subscriptions (including the 3-day free trial) are managed directly by Apple. To cancel before renewal, open your iPhone's <strong>Settings</strong> &gt; tap your <strong>Name / Apple ID</strong> &gt; tap <strong>Subscriptions</strong> &gt; select <strong>Handoff</strong> &gt; tap <strong>Cancel Subscription</strong>.</p>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">What should I do if a buyer/seller ghosts me at a meetup?</div>
+        <p>In the app's live deal tracker, tap <strong>"Report Flake / No-Show"</strong> after the 15-minute grace window. The GPS radar will verify that you arrived within the Safe Spot geofence and that the other party failed to arrive. The escrow system will release the $5 penalty payout directly to your in-app wallet balance, ready for instant debit cashout.</p>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">How do I request an account or data deletion?</div>
+        <p>You can delete your account and all associated telemetry at any time in the app profile under <strong>Settings &gt; Privacy &gt; Delete Account</strong>, or by emailing <a href="mailto:support@handoff.trade">support@handoff.trade</a> with your registered email address.</p>
+      </div>
+    </div>
+
+    <!-- Safety & Emergency Notice -->
+    <div class="card" style="border-color: rgba(244, 63, 94, 0.4);">
+      <h2 style="color: #fb7185;">🚨 In Case of Physical Emergency</h2>
+      <p>If you ever feel unsafe or experience a crime during an exchange, leave immediately and call <strong>911</strong> (or your local emergency number). Handoff will cooperate fully with local law enforcement by providing timestamped transaction and Safe Spot telemetry upon official request.</p>
+    </div>
+
+    <footer>
+      &copy; 2026 Handoff Technologies, Inc. All rights reserved. • <a href="handoff-privacy.html">Privacy Policy</a> • <a href="handoff-terms.html">Terms of Service (EULA)</a>
+    </footer>
+  </div>
+</body>
+</html>
