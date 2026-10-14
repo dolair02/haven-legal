@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talking Macros - Voice & Photo Calorie and Macro Tracker</title>
+    <meta name="description" content="Log your meals in 3 seconds by just speaking or snapping a photo. Powered by AI, itemized macro breakdowns, and automatic Apple Health sync.">
+    <style>
+        :root { --bg: #0b0e14; --card: #121722; --card-border: #1e2638; --text: #f8fafc; --muted: #94a3b8; --accent: #10b981; --accent-glow: rgba(16, 185, 129, 0.2); }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; padding: 40px 20px; }
+        .container { max-width: 820px; margin: 0 auto; background: var(--card); border: 1px solid var(--card-border); border-radius: 16px; padding: 48px 36px; text-align: center; }
+        .badge { display: inline-block; background: var(--accent-glow); border: 1px solid var(--accent); color: var(--accent); font-size: 13px; font-weight: 700; padding: 5px 14px; border-radius: 20px; margin-bottom: 16px; letter-spacing: 0.5px; }
+        h1 { font-size: 34px; font-weight: 800; color: #fff; margin-bottom: 12px; letter-spacing: -0.5px; }
+        p.hero { font-size: 17px; color: #cbd5e1; margin-bottom: 36px; max-width: 640px; margin-left: auto; margin-right: auto; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; text-align: left; margin-bottom: 36px; }
+        @media(max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+        .card { background: rgba(18, 23, 34, 0.7); border: 1px solid var(--card-border); border-radius: 12px; padding: 22px; }
+        .card h3 { font-size: 16.5px; color: #34d399; margin-bottom: 6px; }
+        .card p { font-size: 14px; color: var(--muted); margin: 0; }
+        .pricing-box { background: rgba(16, 185, 129, 0.05); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 12px; padding: 24px; margin-bottom: 32px; text-align: center; }
+        .pricing-box h3 { color: #fff; font-size: 18px; margin-bottom: 8px; }
+        .pricing-box p { color: #cbd5e1; font-size: 14.5px; margin: 0; }
+        .links { margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--card-border); font-size: 14px; color: var(--muted); }
+        a { color: var(--accent); text-decoration: none; margin: 0 10px; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge">iOS &bull; iPadOS &bull; Apple HealthKit</span>
+        <h1>Talking Macros</h1>
+        <p class="hero">The frictionless, voice-first nutrition tracker. Speak naturally or snap a photo of your plate to calculate calories, protein, carbs, and fats in under 3 seconds.</p>
+
+        <div class="grid">
+            <div class="card">
+                <h3>🎙️ Hands-Free Voice Logging</h3>
+                <p>Just say "3 scrambled eggs with avocado toast and butter" and let on-device speech processing handle the math instantly.</p>
+            </div>
+            <div class="card">
+                <h3>📸 Plate & Barcode Scanner</h3>
+                <p>Use your camera to identify food plates and scan millions of verified grocery barcodes in real-time.</p>
+            </div>
+            <div class="card">
+                <h3>📊 Interactive Macro Rings</h3>
+                <p>Real-time visual countdown rings for Calories, Protein, Carbs, and Fats with adaptive target pacing.</p>
+            </div>
+            <div class="card">
+                <h3>❤️ Apple HealthKit 2-Way Sync</h3>
+                <p>Automatically records dietary energy and macronutrients directly to Apple Health with zero manual export.</p>
+            </div>
+        </div>
+
+        <div class="pricing-box">
+            <h3>Simple, Transparent Pricing</h3>
+            <p>Full 3-day free trial on all plans. Continue with Pro Monthly ($3.99/mo) or Pro Annual ($29.99/yr) managed securely via Apple StoreKit 2.</p>
+        </div>
+
+        <div class="links">
+            <a href="talkingmacros-privacy.html">Privacy Policy</a> &bull;
+            <a href="talkingmacros-support.html">Customer Support</a>
+        </div>
+    </div>
+</body>
+</html>
